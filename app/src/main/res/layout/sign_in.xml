@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in With Email"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"
+            android:textColor="#fff"/>
+
+        <EditText
+            android:id="@+id/edit_text_email_signin"
+            android:layout_width="match_parent"
+            android:hint="Email id"
+            android:layout_above="@+id/edit_text_password_signin"
+            style="@style/editTextEmailSignIn"
+            android:textColor="#fff"
+            android:backgroundTint="#fff"/>
+
+        <EditText
+            android:id="@+id/edit_text_password_signin"
+            android:layout_width="match_parent"
+            android:layout_centerVertical="true"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="#fff"
+            style="@style/editTextPasswordSignIn"
+            android:backgroundTint="#fff"/>
+
+        <TextView
+            android:id="@+id/tv_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password ?"
+            android:layout_marginLeft="20dp"
+            android:textColor="#fff"
+            android:layout_below="@+id/edit_text_password_signin"
+            android:layout_marginTop="15dp"
+            android:clickable="true"
+            />
+
+        <Button
+            android:id="@+id/btn_signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edit_text_password_signin"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/mybutton"
+            android:textColor="#fff"
+            android:textSize="18sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Sign In"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+

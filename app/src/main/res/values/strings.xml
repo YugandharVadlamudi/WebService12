@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WebService1</string>
+
+    <string name="signin_email">Sign in with Email</string>
+    <string name="sign_up">Create New Account</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="title_activity_signin">SigninActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_change_password">ChangePassword</string>
+    <string name="facebook_app_id">1692513207633729</string>
+    <string name="please_wait_facebooklogin">Loding</string>
+</resources>

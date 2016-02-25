@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <TextView
+        android:id="@+id/tv_create_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Account"
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        style="@style/createAccount"
+        />
+
+    <EditText
+        android:id="@+id/et_First_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="First Name"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        style="@style/editTextFirstName"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:imeOptions="actionNext"/>
+
+    <EditText
+        android:id="@+id/et_Last_name"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Last Name"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        style="@style/editTextLastName"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:imeOptions="actionNext"
+        />
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Email Address"
+        android:textColorHint="#fff"
+        android:backgroundTint="#fff"
+        style="@style/editTextEmailAddress"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:imeOptions="actionNext"
+        />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:backgroundTint="#fff"
+        style="@style/editTextPassword"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:imeOptions="actionNext"
+        />
+
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Confirm Password"
+        style="@style/editTextConfirmPassword"
+        android:textColorHint="#fff"
+        android:inputType="textPassword"
+        android:backgroundTint="#fff"
+        android:singleLine="true"
+        android:textColor="#fff"
+        android:imeOptions="actionDone"
+        />
+
+    <Button
+        android:id="@+id/btn_sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:background="@drawable/mybutton"
+        style="@style/buttonSignUp"/>
+
+
+</LinearLayout>
