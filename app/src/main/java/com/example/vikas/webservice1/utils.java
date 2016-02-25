@@ -6,6 +6,7 @@ import android.widget.EditText;
  * Created by Kiran on 16-02-2016.
  */
 public class utils {
+    final static String EMAILPATTERN = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
     public static String android_id;
     public static String urlRegistration = "http://app.byji.com/byji_std/v1/dev/api/v1/appuser/register";
     public static String urlLogin = "http://app.byji.com/byji_std/v1/dev/api/v1/appuser/login";
@@ -20,8 +21,8 @@ public class utils {
     public static String provider = "network";
     public static String user_access_token;
     public static String app_authorization_access_token;
-    final static String EMAILPATTERN = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
     public static String firstname, lastname, email, facebookid, propic;
+    public static String helloworld_program;
 
     public static boolean hasContent(EditText ed) {
         if (ed.getText().toString().trim().length() > 0) {
